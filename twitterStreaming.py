@@ -38,7 +38,7 @@ def on_data(self, data):
         return True
 def on_error(self, status):
     print(status)
-return True
+    return True
 def format_filename(fname):
 """Convert file name into a safe string.
 Arguments:
