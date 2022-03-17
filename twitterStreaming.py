@@ -59,6 +59,7 @@ def convert_valid(one_char):
         return one_char
     else:
     return '_'
+
 @classmethod
 def parse(cls, api, raw):
 status = cls.first_parse(api, raw)
