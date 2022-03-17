@@ -54,8 +54,7 @@ def convert_valid(one_char):
     Return:
     Character -- converted char
     """
-    valid_chars = "-_.%s%s" % (string.ascii_letters,
-string.digits)
+    valid_chars = "-_.%s%s" % (string.ascii_letters,string.digits)
 if one_char in valid_chars:
 return one_char
 else:
