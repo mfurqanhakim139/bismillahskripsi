@@ -49,7 +49,7 @@ def format_filename(fname):
     return ''.join(convert_valid(one_char) for one_char in fname)
 def convert_valid(one_char):
     """Convert a character into '_' if invalid.
-Arguments:
+    Arguments:
 one_char -- the char to convert
 Return:
 Character -- converted char
