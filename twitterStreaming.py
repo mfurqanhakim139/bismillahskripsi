@@ -18,7 +18,7 @@ asecret = 'snYPccETaazso21XowfusBZKxcz8uQ2mxrjgoHYb8BIFv'
 def get_parser():
     """Get parser for command line arguments."""
     parser = argparse.ArgumentParser(description="Twitter Downloader")
-parser.add_argument("-q",
+    parser.add_argument("-q",
 "--query",
 dest="query",
 help="Query/Filter",
