@@ -35,7 +35,7 @@ def on_data(self, data):
     except BaseException as e:
         print("Error on_data: %s" % str(e))
         time.sleep(5)
-return True
+        return True
 def on_error(self, status):
 print(status)
 return True
