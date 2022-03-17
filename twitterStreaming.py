@@ -37,7 +37,7 @@ def on_data(self, data):
         time.sleep(5)
         return True
 def on_error(self, status):
-print(status)
+    print(status)
 return True
 def format_filename(fname):
 """Convert file name into a safe string.
