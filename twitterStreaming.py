@@ -25,7 +25,7 @@ class MyListener(StreamListener):
     """Custom StreamListener for streaming data."""
     def __init__(self, data_dir, query):
         query_fname = format_filename(query)
-self.outfile = "%s/stream_%s.json" % (data_dir,
+        self.outfile = "%s/stream_%s.json" % (data_dir,
 query_fname)
 def on_data(self, data):
 try:
