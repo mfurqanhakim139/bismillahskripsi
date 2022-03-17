@@ -63,9 +63,9 @@ def convert_valid(one_char):
 @classmethod
 def parse(cls, api, raw):
     status = cls.first_parse(api, raw)
-setattr(status, 'json', json.dumps(raw))
-return status
-if __name__ == '__main__':
+    setattr(status, 'json', json.dumps(raw))
+    return status
+    if __name__ == '__main__':
 parser = get_parser()
 args = parser.parse_args()
 auth = OAuthHandler(ckey, csecret)
