@@ -28,8 +28,7 @@ class MyListener(StreamListener):
         self.outfile = "%s/stream_%s.json" % (data_dir,query_fname)
 def on_data(self, data):
     try:
-        
-with open(self.outfile, 'a') as f:
+        with open(self.outfile, 'a') as f:
 f.write(data)
 print(data)
 return True
