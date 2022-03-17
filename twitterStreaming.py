@@ -62,7 +62,7 @@ def convert_valid(one_char):
 
 @classmethod
 def parse(cls, api, raw):
-status = cls.first_parse(api, raw)
+    status = cls.first_parse(api, raw)
 setattr(status, 'json', json.dumps(raw))
 return status
 if __name__ == '__main__':
