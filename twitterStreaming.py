@@ -66,7 +66,7 @@ def parse(cls, api, raw):
     setattr(status, 'json', json.dumps(raw))
     return status
     if __name__ == '__main__':
-parser = get_parser()
+        parser = get_parser()
 args = parser.parse_args()
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
