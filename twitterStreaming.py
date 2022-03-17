@@ -67,7 +67,7 @@ def parse(cls, api, raw):
     return status
     if __name__ == '__main__':
         parser = get_parser()
-args = parser.parse_args()
+        args = parser.parse_args()
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 api = tweepy.API(auth)
