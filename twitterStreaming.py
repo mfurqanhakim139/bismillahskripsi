@@ -19,8 +19,7 @@ def get_parser():
     """Get parser for command line arguments."""
     parser = argparse.ArgumentParser(description="Twitter Downloader")
     parser.add_argument("-q","--query", dest="query", help="Query/Filter", default='-')
-    parser.add_argument("-d",
-"--data-dir",
+    parser.add_argument("-d","--data-dir",
 dest="data_dir",
 help="Output/Data Directory")
 return parser
