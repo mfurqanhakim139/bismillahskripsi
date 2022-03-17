@@ -68,8 +68,8 @@ def parse(cls, api, raw):
     if __name__ == '__main__':
         parser = get_parser()
         args = parser.parse_args()
-auth = OAuthHandler(ckey, csecret)
-auth.set_access_token(atoken, asecret)
+        auth = OAuthHandler(ckey, csecret)
+        auth.set_access_token(atoken, asecret)
 api = tweepy.API(auth)
 twitter_stream = Stream(auth, MyListener(args.data_dir,
 args.query))
