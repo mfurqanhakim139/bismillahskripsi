@@ -31,7 +31,7 @@ def on_data(self, data):
         with open(self.outfile, 'a') as f:
             f.write(data)
             print(data)
-return True
+            return True
 except BaseException as e:
 print("Error on_data: %s" % str(e))
 time.sleep(5)
