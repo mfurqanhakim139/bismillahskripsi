@@ -70,7 +70,7 @@ def parse(cls, api, raw):
         args = parser.parse_args()
         auth = OAuthHandler(ckey, csecret)
         auth.set_access_token(atoken, asecret)
-api = tweepy.API(auth)
+        api = tweepy.API(auth)
 twitter_stream = Stream(auth, MyListener(args.data_dir,
 args.query))
 twitter_stream.filter(track=["gempa", "#gempa"])
