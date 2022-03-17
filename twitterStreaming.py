@@ -12,7 +12,7 @@ import json
 
 
 ckey = 'wmSMYOFxQ867iGfvoaEBdAOpg'
-csecret 
+csecret =
 'dvJTua6me7cXVjUgyneWru6tiqX70wtPNMWmZlXGyOUeGa691W'
 atoken = '61111680-
 N5KCNpLzSz5f7bhOnZeXtVzTmFOdnWlvBq5o09GT0'
