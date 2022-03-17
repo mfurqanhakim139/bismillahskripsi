@@ -41,7 +41,7 @@ def on_error(self, status):
     return True
 def format_filename(fname):
     """Convert file name into a safe string.
-Arguments:
+    Arguments:
 fname -- the file name to convert
 Return:
 String -- converted file name
