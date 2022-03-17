@@ -22,7 +22,7 @@ def get_parser():
     parser.add_argument("-d","--data-dir",dest="data_dir",help="Output/Data Directory")
     return parser
 class MyListener(StreamListener):
-"""Custom StreamListener for streaming data."""
+    """Custom StreamListener for streaming data."""
 def __init__(self, data_dir, query):
 query_fname = format_filename(query)
 self.outfile = "%s/stream_%s.json" % (data_dir,
