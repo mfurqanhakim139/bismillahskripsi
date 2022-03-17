@@ -53,7 +53,7 @@ def convert_valid(one_char):
     one_char -- the char to convert
     Return:
     Character -- converted char
-"""
+    """
 valid_chars = "-_.%s%s" % (string.ascii_letters,
 string.digits)
 if one_char in valid_chars:
