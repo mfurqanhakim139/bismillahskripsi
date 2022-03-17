@@ -50,8 +50,8 @@ def format_filename(fname):
 def convert_valid(one_char):
     """Convert a character into '_' if invalid.
     Arguments:
-one_char -- the char to convert
-Return:
+    one_char -- the char to convert
+    Return:
 Character -- converted char
 """
 valid_chars = "-_.%s%s" % (string.ascii_letters,
