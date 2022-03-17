@@ -40,6 +40,7 @@ def on_error(self, status):
     print(status)
     return True
 def format_filename(fname):
+    
 """Convert file name into a safe string.
 Arguments:
 fname -- the file name to convert
