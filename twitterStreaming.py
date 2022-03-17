@@ -46,7 +46,7 @@ def format_filename(fname):
     Return:
     String -- converted file name
     """
-return ''.join(convert_valid(one_char) for one_char in
+    return ''.join(convert_valid(one_char) for one_char in
 fname)
 def convert_valid(one_char):
 """Convert a character into '_' if invalid.
