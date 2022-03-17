@@ -43,7 +43,7 @@ def format_filename(fname):
     """Convert file name into a safe string.
     Arguments:
     fname -- the file name to convert
-Return:
+    Return:
 String -- converted file name
 """
 return ''.join(convert_valid(one_char) for one_char in
