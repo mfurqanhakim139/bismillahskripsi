@@ -44,8 +44,8 @@ def format_filename(fname):
     Arguments:
     fname -- the file name to convert
     Return:
-String -- converted file name
-"""
+    String -- converted file name
+    """
 return ''.join(convert_valid(one_char) for one_char in
 fname)
 def convert_valid(one_char):
